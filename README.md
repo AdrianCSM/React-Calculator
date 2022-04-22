@@ -6,7 +6,7 @@ This is a single page app (SPA) that allows you to calculate and it will show ra
 
 ## Live Demo
 
-[Link to the live demo](...)
+[Link to the live demo](https://adriancsm.github.io/React-Calculator/)
 
 ## Built with :
 
