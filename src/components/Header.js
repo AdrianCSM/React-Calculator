@@ -7,7 +7,6 @@ const Header = () => {
     position: 'fixed',
     top: 0,
     padding: '1rem 0',
-    color: 'rgba(146, 77, 168, 1)',
   };
 
   const navStyle = {
@@ -18,7 +17,6 @@ const Header = () => {
 
   const titleStyle = {
     left: 0,
-    textTransform: 'lowercase',
     fontSize: '3rem',
   };
 
@@ -37,12 +35,12 @@ const Header = () => {
     <header style={headerStyle}>
       <nav style={navStyle}>
         <h1 style={titleStyle}>
-          <a href="/math-magicians/" rel="noopener noreferrer">Math-Magicians</a>
+          <NavLink to="/math-magicians" rel="noopener noreferrer">Math Magicians Calculator</NavLink>
         </h1>
         <ul style={listStyle}>
-          <li style={itemStyle}><NavLink to="/Home/" rel="noopener noreferrer">Home</NavLink></li>
+          <li style={itemStyle}><NavLink to="/Home" rel="noopener noreferrer">Home</NavLink></li>
           <li style={itemStyle}><NavLink to="/math-magicians" rel="noopener noreferrer">Calculator</NavLink></li>
-          <li style={itemStyle}><NavLink to="/Quote/" rel="noopener noreferrer">Quote</NavLink></li>
+          <li style={itemStyle}><NavLink to="/Quote" rel="noopener noreferrer">Quote</NavLink></li>
         </ul>
       </nav>
     </header>
