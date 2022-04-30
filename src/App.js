@@ -13,10 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Calculator />
+
         <Header />
         <Routes>
-          <Route path="/" element={<Calculator />} />
+          <Route path="/math-magicians" element={<Calculator />} />
           <Route path="/Home/" element={<Home />} />
           <Route path="/Quote/" element={<Quote />} />
         </Routes>
