@@ -1,3 +1,19 @@
 body {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: rgba(146, 77, 168, 1);
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
